@@ -1,0 +1,10 @@
+---
+- name: My fist playbook
+  hosts: localhost
+
+  tasks:
+  - name: deploy software from aptitude repository
+    apt:
+      name: bastet
+      state: present
+    become: yes
