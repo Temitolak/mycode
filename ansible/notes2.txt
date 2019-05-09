@@ -1,0 +1,216 @@
+    1  cd mycode
+    2  cd ansible/
+    3  ls 
+    4  vim playbook03-hosts.py
+    5  vim playbook03-hosts.yaml
+    6  cat playbook03-hosts.yaml 
+    7  ansible-playbook playbook03-hosts.yaml 
+    8  vim playbook03-hosts.yaml
+    9  ansible-playbook playbook03-hosts.yaml 
+   10  vim playbook03-hosts.yaml
+   11  ansible-playbook playbook03-hosts.yaml 
+   12  mkdir inv/dev
+   13  mkdir /mycode/ansible/inv/dev
+   14  mkdir mycode/ansible/inv/dev
+   15  mkdir -p  mycode/ansible/inv/dev
+   16  ls
+   17  cd mycode/ansible/inv/dev/
+   18  cd --
+   19  mkdir /mycode/ansible/inv/dev
+   20  mkdir mycode/ansible/inv
+   21  mkdir mycode/ansible/inv/dev
+   22  cd mycode/ansible/inv/dev
+   23  vim hosts
+   24  cat hosts
+   25  vim hosts
+   26  cat hosts
+   27  cd ..
+   28  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   29  ~~~~
+   30  ls
+   31  rm dir mycode
+   32  rmdir mycode
+   33  rmdir mycode/inv/dev
+   34  cd mycode/
+   35  cd inv
+   36  rmdir dev
+   37  ls
+   38  cd ansible/inv
+   39  rmdir dev
+   40  cd ..
+   41  rmdir inv
+   42  cd..
+   43  cd ..
+   44  rmdir ansible
+   45  cd ..
+   46  rmdir mycode
+   47  ls
+   48  cat playbook03-hosts.yaml 
+   49  vim playbook03-hosts.yaml 
+   50  cat playbook03-hosts.yaml 
+   51  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   52  vim playbook03-hosts.yaml 
+   53  cat playbook03-hosts.yaml 
+   54  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   55  cat playbook03-hosts.yaml 
+   56  ssh bender@10.10.2.3
+   57  vim playbook03-hosts.yaml 
+   58  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   59  ssh bender@10.10.2.3
+   60  vim inv/dev/hosts 
+   61  vim playbook03-hosts.yaml 
+   62  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   63  cat inv/dev/hosts 
+   64  vim playbook03-hosts.yaml 
+   65  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   66  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts -e engines=ion
+   67  vim ansible.cfg
+   68  cat ansible.cfg
+   69  ansible-playbook playbook03-hosts.yaml
+   70  cat ansible.cfg
+   71  cd .ssh
+   72  ls
+   73  vim playbook04-api.yml
+   74  ansible-playbook playbook04-api.yml 
+   75  vim playbook04-api.yml
+   76  ansible-playbook playbook04-api.yml 
+   77  vim playbook04-api.yml
+   78  ansible-playbook playbook04-api.yml 
+   79  git add *
+   80  git commit -m "Midday update for ansible and python"
+   81  vim randomgame.py
+   82  python3 randomgame.py 
+   83  vim randomgame.py
+   84  python3 randomgame.py 
+   85  vim randomgame.py
+   86  python3 randomgame.py 
+   87  vim randomgame.py
+   88  python3 randomgame.py 
+   89  cd ..
+   90  cd ansible/
+   91  vim playbook05-templaye.yml
+   92  vim playbook05-template.yml
+   93  mkdir template
+   94  vim template/ship.conf
+   95  cat  playbook05-template.yml
+   96  vim template/ship.conf
+   97  vim template/ship.conf.j2
+   98  rm template/ship.conf
+   99  cat template/ship.conf.j2
+  100  vim inv/dev/hosts 
+  101  ansible-playbook playbook05-template.yml 
+  102  vim inv/dev/hosts 
+  103  ansible-playbook playbook05-template.yml 
+  104  cat  playbook05-template.yml
+  105  ssh bender@10.10.2.4
+  106  ssh bender@10.10.2.3
+  107  history
+  108  history >> notes2.txt
+    1  cd mycode
+    2  cd ansible/
+    3  ls 
+    4  vim playbook03-hosts.py
+    5  vim playbook03-hosts.yaml
+    6  cat playbook03-hosts.yaml 
+    7  ansible-playbook playbook03-hosts.yaml 
+    8  vim playbook03-hosts.yaml
+    9  ansible-playbook playbook03-hosts.yaml 
+   10  vim playbook03-hosts.yaml
+   11  ansible-playbook playbook03-hosts.yaml 
+   12  mkdir inv/dev
+   13  mkdir /mycode/ansible/inv/dev
+   14  mkdir mycode/ansible/inv/dev
+   15  mkdir -p  mycode/ansible/inv/dev
+   16  ls
+   17  cd mycode/ansible/inv/dev/
+   18  cd --
+   19  mkdir /mycode/ansible/inv/dev
+   20  mkdir mycode/ansible/inv
+   21  mkdir mycode/ansible/inv/dev
+   22  cd mycode/ansible/inv/dev
+   23  vim hosts
+   24  cat hosts
+   25  vim hosts
+   26  cat hosts
+   27  cd ..
+   28  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   29  ~~~~
+   30  ls
+   31  rm dir mycode
+   32  rmdir mycode
+   33  rmdir mycode/inv/dev
+   34  cd mycode/
+   35  cd inv
+   36  rmdir dev
+   37  ls
+   38  cd ansible/inv
+   39  rmdir dev
+   40  cd ..
+   41  rmdir inv
+   42  cd..
+   43  cd ..
+   44  rmdir ansible
+   45  cd ..
+   46  rmdir mycode
+   47  ls
+   48  cat playbook03-hosts.yaml 
+   49  vim playbook03-hosts.yaml 
+   50  cat playbook03-hosts.yaml 
+   51  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   52  vim playbook03-hosts.yaml 
+   53  cat playbook03-hosts.yaml 
+   54  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   55  cat playbook03-hosts.yaml 
+   56  ssh bender@10.10.2.3
+   57  vim playbook03-hosts.yaml 
+   58  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   59  ssh bender@10.10.2.3
+   60  vim inv/dev/hosts 
+   61  vim playbook03-hosts.yaml 
+   62  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   63  cat inv/dev/hosts 
+   64  vim playbook03-hosts.yaml 
+   65  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts 
+   66  ansible-playbook playbook03-hosts.yaml -i inv/dev/hosts -e engines=ion
+   67  vim ansible.cfg
+   68  cat ansible.cfg
+   69  ansible-playbook playbook03-hosts.yaml
+   70  cat ansible.cfg
+   71  cd .ssh
+   72  ls
+   73  vim playbook04-api.yml
+   74  ansible-playbook playbook04-api.yml 
+   75  vim playbook04-api.yml
+   76  ansible-playbook playbook04-api.yml 
+   77  vim playbook04-api.yml
+   78  ansible-playbook playbook04-api.yml 
+   79  git add *
+   80  git commit -m "Midday update for ansible and python"
+   81  vim randomgame.py
+   82  python3 randomgame.py 
+   83  vim randomgame.py
+   84  python3 randomgame.py 
+   85  vim randomgame.py
+   86  python3 randomgame.py 
+   87  vim randomgame.py
+   88  python3 randomgame.py 
+   89  cd ..
+   90  cd ansible/
+   91  vim playbook05-templaye.yml
+   92  vim playbook05-template.yml
+   93  mkdir template
+   94  vim template/ship.conf
+   95  cat  playbook05-template.yml
+   96  vim template/ship.conf
+   97  vim template/ship.conf.j2
+   98  rm template/ship.conf
+   99  cat template/ship.conf.j2
+  100  vim inv/dev/hosts 
+  101  ansible-playbook playbook05-template.yml 
+  102  vim inv/dev/hosts 
+  103  ansible-playbook playbook05-template.yml 
+  104  cat  playbook05-template.yml
+  105  ssh bender@10.10.2.4
+  106  ssh bender@10.10.2.3
+  107  history
+  108  history >> notes2.txt
