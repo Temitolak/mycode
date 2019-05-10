@@ -1,0 +1,10 @@
+---
+- name: My custom module
+  hosts: localhost
+
+  tasks:
+  - name: New module
+    my_vzw_mod:
+      name: You say goodbye
+      new: False
+
